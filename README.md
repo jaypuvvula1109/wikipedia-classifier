@@ -217,17 +217,6 @@ kubectl delete rayservice wikipedia-classifier
 kind delete cluster --name wikipedia-classifier
 ```
 
-## 📚 Ray Concepts Used
-
-| Concept | Purpose |
-|---------|---------|
-| `ray.data.read_json()` | Distributed data loading |
-| `ds.map_batches()` | Parallel preprocessing |
-| `ray.train` | Distributed model training |
-| `@serve.deployment` | Deploy model as service |
-| `@serve.ingress` | Connect FastAPI to Ray Serve |
-| `RayService` | Kubernetes-native Ray deployment |
-
 ## 🔗 Resources
 
 - [Ray Documentation](https://docs.ray.io/)
