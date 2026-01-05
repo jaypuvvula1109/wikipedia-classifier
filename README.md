@@ -2,25 +2,6 @@
 
 An end-to-end ML pipeline for classifying text queries and returning relevant Wikipedia article links. Built with **Ray** (Data, Train, Serve) and deployed on **Kubernetes** with **KubeRay**.
 
-## 🎯 What It Does
-```
-User Query: "How do neural networks learn from data?"
-     │
-     ▼
-┌─────────────────────────────────────┐
-│         ML Classification           │
-│    (TF-IDF + SGDClassifier)         │
-└─────────────────────────────────────┘
-     │
-     ▼
-Response:
-  Category: Technology (87% confidence)
-  Related Articles:
-    • Artificial Intelligence
-    • Neural Network
-    • Machine Learning
-```
-
 ## 🏗️ Architecture
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
